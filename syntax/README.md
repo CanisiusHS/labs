@@ -82,6 +82,8 @@ Then execute your program, by typing in the following, again followed with `ente
 ./syntax
 ```
 
+{% next %}
+
 <style type="text/css">
 #green {color:green;}  
 </style>
