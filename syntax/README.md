@@ -86,6 +86,24 @@ Then execute your program, by typing in the following, again followed with `ente
 #green {color:green;}  
 </style>
 
+### Checking with `check50`
+
+You can check that your work is correct and meets the specifications of the lab by executing the following at the `$` prompt:
+
+```
+check50 canisiushs/problems/2020/syntax
+```
+
+If your code passed all of the tests you will see check50 outputs:
+
+<div id="green">
+    <pre><code>:) syntax.c exists
+:) syntax.c compiles
+:) prints "This is CS50AP!\n"</code></pre>
+</div>
+
+you are now ready to check your style!
+
 ### Styling with `style50`
 
 Though C doesn't care about how you style your code (in other words code with correct syntax but inconsistent spacing will compile and execute), CS50 does! That's because spacing your code consistently makes it easier to read and as we'll see soon, easier to debug.
@@ -104,6 +122,16 @@ When style50 outputs:
     <pre><code>Looks good!</code></pre>
 </div>
 
-you are done! Congratulations, you've completed the Syntax Lab!
+you are ready to submit!
+
+### Submitting with `submit50`
+
+Assuming you passed all of the checks and your style is good you can now submit the lab by executing the following at the `$` prompt:
+
+```
+submit50 canisiushs/problems/2020/syntax
+```
+
+Congratulations, you've completed the Syntax Lab!
 
 [For more info, download the CS50 Syntax Reference Sheet](https://ap.cs50.school/assets/pdfs/unit1/syntax.pdf)
