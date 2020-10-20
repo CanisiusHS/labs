@@ -9,5 +9,5 @@ int main(void)
     // add your code here
     
     
-    printf("Your number can be doubled %i times before reaching 100!\n", counter);
+    printf("Your number can be doubled %i times before exceeding 100!\n", counter);
 }
