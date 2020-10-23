@@ -163,38 +163,58 @@ Finally **execute** your program with:
 ./datatypes
 ```
 
-<!--
-
 {% next %}
 
-## Testing
+<style type="text/css">
+#green {color:green;}
+</style>
 
-### Correctness
+### Styling with `style50`
 
-Before turning in your solution, be sure to test the correctness of your program with check50, by executing the below:
+Though C doesn't care about how you style your code (in other words code with correct syntax but inconsistent spacing will compile and execute), CS50 does! That's because spacing your code consistently makes it easier to read and as we'll see soon, easier to debug.
 
-```
-check50 <slug goes here>
-```
-
-### Style
-
-If you pass all the check50 test cases, and get all green smiley faces, try checking style50, as with:
+You can check that your spacing is correct by executing the following at the `$` prompt:
 
 ```
 style50 datatypes.c
 ```
 
-When your program compiles and passes the style test, you have completed Data Types!
+If there’s room for improvement in your code’s style, highlighted in red will be any characters you should delete, and highlighted in green will be any characters you should add.
 
-## Submit
+When style50 outputs:
 
-To submit your code, execute
+<div id="green">
+    <pre><code>Looks good!</code></pre>
+</div>
+
+you are now ready to check your code!
+
+### Checking with `check50`
+
+You can check that your work is correct and meets the specifications of the lab by executing the following at the `$` prompt:
 
 ```
-submit50 <slug>
+check50 canisiushs/problems/2020/1_4_types
 ```
 
-Your submission should be graded for corretness and style withing a few minutes on [cs50.me](https://cs50.me/) -->
+If your code passed all of the tests you will see check50 outputs:
+
+<div id="green">
+    <pre><code>:) datatypes.c exists
+:) datatypes.c compiles.
+:) accepts Dave, 1994001, 34, 3.2, and 3.1415926535</code></pre>
+</div>
+
+you are ready to submit!
+
+### Submitting with `submit50`
+
+Assuming you passed all of the checks and your style is good you can now submit the lab by executing the following at the `$` prompt:
+
+```
+submit50 canisiushs/problems/2020/1_4_types
+```
+
+Congratulations, you've completed the Data Types Lab!
 
 [For more info on data types, download the CS50 Data Types Reference Sheet](https://ap.cs50.school/assets/pdfs/unit1/data_types.pdf)
