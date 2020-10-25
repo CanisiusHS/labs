@@ -122,13 +122,13 @@ For instance:
 bool game_started = true;
 bool game_finished = false;
 ```
-<!--
+
 {% spoiler "More on Data Types" %}
 
 {% video https://www.youtube.com/watch?v=Fc9htmvVZ9U %}
 
 {% endspoiler %}
--->
+
 
 {% next %}
 
@@ -183,9 +183,9 @@ If there’s room for improvement in your code’s style, highlighted in red wil
 
 When style50 outputs:
 
-<div id="green">
-    <pre><code>Looks good!</code></pre>
-</div>
+```
+Looks good!
+```
 
 you are now ready to check your code!
 
