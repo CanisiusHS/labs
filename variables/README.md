@@ -219,9 +219,9 @@ check50 canisiushs/problems/2020/1_3_variables
 If your code passed all of the tests you will see check50 outputs:
 
 <div id="green">
-    <pre><code>:) operators.c exists
-:) operators.c compiles
-:) responds to 145
+    <pre><code>:) variables.c exists
+:) variables.c compiles
+:) responds to 12
 :) rejects a non-numeric input of "foo"
 </code></pre>
 </div>
