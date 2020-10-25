@@ -1,4 +1,4 @@
 lab50:
   files:
     - !exclude "*"
-    - !include apt1
+    - !include syntax.c
