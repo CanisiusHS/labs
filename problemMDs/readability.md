@@ -1,5 +1,4 @@
-[Readability](https://cs50.harvard.edu/ap/2021/curriculum/x/psets/2/readability/#readability)
-=============================================================================================
+# Readability
 
 Implement a program that computes the approximate grade level needed to comprehend some text, per the below.
 
@@ -10,8 +9,7 @@ Grade 3
 
 ```
 
-[Reading Levels](https://cs50.harvard.edu/ap/2021/curriculum/x/psets/2/readability/#reading-levels)
----------------------------------------------------------------------------------------------------
+## Reading Levels
 
 According to [Scholastic](https://www.scholastic.com/teachers/teaching-tools/collections/guided-reading-book-lists-for-every-level.html), E.B. White's "Charlotte's Web" is between a second and fourth grade reading level, and Lois Lowry's "The Giver" is between an eighth grade reading level and a twelfth grade reading level. What does it mean, though, for a book to be at a "fourth grade reading level"?
 
@@ -59,8 +57,7 @@ Grade 11
 
 ```
 
-[Specification](https://cs50.harvard.edu/ap/2021/curriculum/x/psets/2/readability/#specification)
--------------------------------------------------------------------------------------------------
+## Specification
 
 Design and implement a program, `readability`, that computes the Coleman-Liau index of the text.
 
@@ -70,7 +67,7 @@ Design and implement a program, `readability`, that computes the Coleman-Liau i
 -   Your program should print as output `"Grade X"` where `X` is the grade level computed by the Coleman-Liau formula, rounded to the nearest integer.
 -   If the resulting index number is 16 or higher (equivalent to or greater than a senior undergraduate reading level), your program should output `"Grade 16+"` instead of giving the exact index number. If the index number is less than 1, your program should output `"Before Grade 1"`.
 
-### [Getting User Input](https://cs50.harvard.edu/ap/2021/curriculum/x/psets/2/readability/#getting-user-input)
+### Getting User Input
 
 Let's first write some C code that just gets some text input from the user, and prints it back out. Specifically, write code in a new file called `readability.c` such that when the user runs the program, they are prompted with `"Text: "` to enter some text.
 
@@ -83,7 +80,7 @@ In my younger and more vulnerable years my father gave me some advice that I've 
 
 ```
 
-### [Letters](https://cs50.harvard.edu/ap/2021/curriculum/x/psets/2/readability/#letters)
+### Letters
 
 Now that you've collected input from the user, let's begin to analyze that input by first counting the number of letters that show up in the text. Modify `readability.c` so that, instead of printing out the literal text itself, it instead prints out a count of the number of letters in the text.
 
@@ -100,7 +97,7 @@ Letters can be any uppercase or lowercase alphabetic characters, but shouldn't i
 
 You can reference <https://man.cs50.io/> for standard library functions that may help you here! You may also find that writing a separate function, like `count_letters`, may be useful to keep your code organized.
 
-### [Words](https://cs50.harvard.edu/ap/2021/curriculum/x/psets/2/readability/#words)
+### Words
 
 The Coleman-Liau index cares not only about the number of letters, but also the number of words in a sentence. For the purpose of this problem, we'll consider any sequence of characters separated by a space to be a word (so a hyphenated word like `"sister-in-law"` should be considered one word, not three).
 
@@ -118,7 +115,7 @@ Text: It was a bright cold day in April, and the clocks were striking thirteen. 
 
 ```
 
-### [Sentences](https://cs50.harvard.edu/ap/2021/curriculum/x/psets/2/readability/#sentences)
+### Sentences
 
 The last piece of information that the Coleman-Liau formula cares about, in addition to the number of letters and words, is the number of sentences. Determining the number of sentences can be surprisingly trickly. You might first imagine that a sentence is just any sequence of characters that ends with a period, but of course sentences could end with an exclamation point or a question mark as well. But of course, not all periods necessarily mean the sentence is over. For instance, consider the sentence below.
 
@@ -142,7 +139,7 @@ Text: When he was nearly thirteen, my brother Jem got his arm badly broken at th
 
 ```
 
-### [Putting it All Together](https://cs50.harvard.edu/ap/2021/curriculum/x/psets/2/readability/#putting-it-all-together)
+### Putting it All Together
 
 Now it's time to put all the pieces together! Recall that the Coleman-Liau index is computed using the formula:
 
@@ -159,13 +156,11 @@ If the resulting index number is 16 or higher (equivalent to or greater than a s
 
 Hints
 
-[Walkthrough](https://cs50.harvard.edu/ap/2021/curriculum/x/psets/2/readability/#walkthrough)
----------------------------------------------------------------------------------------------
+## Walkthrough
 
 Note that while the walkthrough illustrates that words may be separated by more than one space, you may assume, per the specifications above, that no sentences will contain more than one space in a row.
 
-[How to Test Your Code](https://cs50.harvard.edu/ap/2021/curriculum/x/psets/2/readability/#how-to-test-your-code)
------------------------------------------------------------------------------------------------------------------
+## How to Test Your Code
 
 Try running your program on the following texts.
 
@@ -194,8 +189,7 @@ style50 readability.c
 
 ```
 
-[How to Submit](https://cs50.harvard.edu/ap/2021/curriculum/x/psets/2/readability/#how-to-submit)
--------------------------------------------------------------------------------------------------
+## How to Submit
 
 Execute the below, logging in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
 
