@@ -10,7 +10,7 @@ In this lab you will learn about:
 A prerequisite to using search algorithms which are more efficient that linear search is to have sorted data.
 
 One of the most basic sorting algorithms is **bubble sort**. Bubble sort works by comparing two adjacent numbers in
-the list, and **swapping** them if they are **out of order**. 
+the list, and **swapping** them if they are **out of order**.
 
 ![Bubble_Sort](https://raw.githubusercontent.com/cs50nestm/cs50labs/2019/bubblesort/bubble_sort.gif)
 
@@ -30,7 +30,7 @@ repeat until no swaps
 
 ## Computational Complexity
 
-The worst case scenario for **bubble sort** is a reverse ordered list (6, 5, 4, 3, 2, 1). We would need 5, or `n - 1` passes and each pass would check 5, or `n - 1` pairs of numbers. 
+The worst case scenario for **bubble sort** is a reverse ordered list (6, 5, 4, 3, 2, 1). We would need 5, or `n - 1` passes and each pass would check 5, or `n - 1` pairs of numbers.
 
 When comparing running time, we generally just want the term with the biggest order of magnitude, so in this case, we would say that **bubble sort** has a complexity of **O(n<sup>2</sup>)**.
 
@@ -38,7 +38,7 @@ When comparing running time, we generally just want the term with the biggest or
 
 ## Your Turn
 
-Complete the `bubble_sort()` function on the right to sort the supplied array. 
+Complete the `bubble_sort()` function on the right to sort the supplied array.
 
 Notice that the bubble sort function has a return type of `void`. This means the function doesn't return anything. What it does do is sort the array.
 
@@ -54,7 +54,7 @@ The `print_array()` function is given to you to print out the array after you've
 
 Once you have your function sorting properly, see if you can make it more efficient! How to do this? There are two areas you might be able to improve.
 
-1. See if you can have the function stop as soon as there are no more swaps. 
+1. See if you can have the function stop as soon as there are no more swaps.
 
 2. In a list with n elements, we would compare (n - 1) pairs in our first pass. And after our first pass, the largest element will have been swapped all the way to the right. So in our second pass, we’ll only need (n - 2) comparisons.
 
@@ -64,5 +64,16 @@ You may want to include a counter for the amount of swaps made. You can reset th
 
 {% endspoiler %}
 
+{% next %}
+
+### Style, Check, & Submit
+
+Make sure to check your style!  Here are the slugs you will need for both `check50` and `submit50`:
+
+```
+canisiushs/problems/2020/3_2_bubble
+```
+
+Congratulations, you've completed the Bubble Sort Lab!
 
 [Download our CS50 Reference sheet on Bubble Sort](https://ap.cs50.school/assets/pdfs/unit3/bubble_sort.pdf)

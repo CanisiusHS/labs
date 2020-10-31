@@ -55,11 +55,22 @@ The function definition is located after the `main()` function closes. Complete 
 
 1. Consider using a for loop, to iterate through the array. For instance: `for (int i = 0; i < size; i++)` could work to access each element in the array.
     1. If we find a match  `arr[i] == n` we `return true`
-2. When the for loop completes, it means we searched through till the end of the array, and didn't find a match, so `return false`    
+2. When the for loop completes, it means we searched through till the end of the array, and didn't find a match, so `return false`
 
 {% endspoiler %}
 
 Be sure to test your function by compiling and executing your program. Try a variety of inputs, including some numbers that are in the `bingo_card` array and some numbers that are not.
 
+{% next %}
+
+### Style, Check, & Submit
+
+Make sure to check your style!  Here are the slugs you will need for both `check50` and `submit50`:
+
+```
+canisiushs/problems/2020/3_1_linearsearch
+```
+
+Congratulations, you've completed the Linear Search Lab!
 
 [Download our CS50 Reference sheet on Linear Search](https://ap.cs50.school/assets/pdfs/unit3/linear_search.pdf)

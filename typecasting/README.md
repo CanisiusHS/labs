@@ -86,4 +86,16 @@ Notice the mapping between chars and ints in the [ASCII table](https://study.cs5
 
 {% endspoiler %}
 
+{% next %}
+
+### Style, Check, & Submit
+
+Make sure to check your style!  Here are the slugs you will need for both `check50` and `submit50`:
+
+```
+canisiushs/problems/2020/2_5_typecasting
+```
+
+Congratulations, you've completed the Typecasting Lab!
+
 [For more info on typecasting, download the CS50 typecasting Sheet](https://ap.cs50.school/assets/pdfs/unit2/typecasting.pdf)

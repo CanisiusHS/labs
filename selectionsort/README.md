@@ -7,7 +7,7 @@ In this lab you will learn about:
 
 ## What is Selection Sort?
 
-Bubble sort sure involved a lot of swapping! Let's take a look at another sorting algorithm, **selection sort**. 
+Bubble sort sure involved a lot of swapping! Let's take a look at another sorting algorithm, **selection sort**.
 
 ![Selection_Sort](https://raw.githubusercontent.com/cs50nestm/cs50labs/2019/selectionsort/selection_sort.gif)
 
@@ -33,7 +33,7 @@ Even though we are doing fewer swaps with **selection sort** than we are in **bu
 
 ## Your Turn
 
-Complete the `selection_sort()` function on the right to sort the supplied array. 
+Complete the `selection_sort()` function on the right to sort the supplied array.
 
 Note that this function has a return type of `void`. This means the function doesn't return anything. What it does do is sort the array.
 
@@ -51,8 +51,20 @@ The `print_array()` function is given to you to print out the array after you've
 
 Once you have your function sorting properly, is there something else you can do to make it more efficient? Does it make sense to use a counter like in bubble sort?
 
-While it might seem like a good idea to check if the entire array is sorted after every successful swap to avoid additional passes through the array, this would come at a cost, because then there would be even more comparisons to be made. 
+While it might seem like a good idea to check if the entire array is sorted after every successful swap to avoid additional passes through the array, this would come at a cost, because then there would be even more comparisons to be made.
 
 This is why we say that the worst case and best case scenarios for **selection sort** are both on the order of n<sup>2</sup>.
+
+{% next %}
+
+### Style, Check, & Submit
+
+Make sure to check your style!  Here are the slugs you will need for both `check50` and `submit50`:
+
+```
+canisiushs/problems/2020/3_3_selection
+```
+
+Congratulations, you've completed the Selection Sort Lab!
 
 [Download our CS50 Reference sheet on Selection Sort](https://ap.cs50.school/assets/pdfs/unit3/selection_sort.pdf)

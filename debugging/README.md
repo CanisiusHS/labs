@@ -82,7 +82,17 @@ You can declare additional variables if you want to and use functions in any of 
 Try adding a `printf` inside of the `bin_to_dec(binary)` function to see if the calculation is working correctly.
 {% endspoiler %}
 
+{% next %}
 
+### Style, Check, & Submit
+
+Make sure to check your style!  Here are the slugs you will need for both `check50` and `submit50`:
+
+```
+canisiushs/problems/2020/2_6_debugging
+```
+
+Congratulations, you've completed the Debugging Lab!
 
 
 [For more info, download the CS50 Bugs and Debugging Reference Sheet](https://ap.cs50.school/assets/pdfs/unit2/bugs_and_debugging.pdf)

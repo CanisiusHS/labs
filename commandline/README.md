@@ -86,8 +86,21 @@ The program on the right uses `get_string()` to get user input. Edit the program
     1. If `argc != 2` print an error message
     1. Else print out `hello, ` followed by `argv[1]`
 
-{% endspoiler %}  
+{% endspoiler %}
 
 Remember to compile your program and test it. Be sure to test for all cases: with one command-line argument after calling the program name, with more than one argument, and with no arguments.
+
+{% next %}
+
+### Style, Check, & Submit
+
+Make sure to check your style!  Here are the slugs you will need for both `check50` and `submit50`:
+
+```
+canisiushs/problems/2020/2_3_commandline
+```
+
+Congratulations, you've completed the Command Line Lab!
+
 
 [For more info, download the CS50 Command-Line Interaction Reference Sheet](https://ap.cs50.school/assets/pdfs/unit2/command-line_interaction.pdf)
