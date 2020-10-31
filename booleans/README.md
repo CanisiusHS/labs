@@ -172,4 +172,64 @@ Complete the code on the right by adding one or more conditional statements to p
 
 Then test your code by entering inputs that are ints, floats, strings, and ints but that are outside the expected range (like 1000)!
 
+{% next %}
+
+<style type="text/css">
+#green {color:green;}
+</style>
+
+### Styling with `style50`
+
+Though C doesn't care about how you style your code (in other words code with correct booleans but inconsistent spacing will compile and execute), CS50 does! That's because spacing your code consistently makes it easier to read and as we'll see soon, easier to debug.
+
+You can check that your spacing is correct by executing the following at the `$` prompt:
+
+```
+style50 booleans.c
+```
+
+If there’s room for improvement in your code’s style, highlighted in red will be any characters you should delete, and highlighted in green will be any characters you should add.
+
+When style50 outputs:
+
+<div id="green">
+    <pre><code>Looks good!</code></pre>
+</div>
+
+you are now ready to check your code!
+
+### Checking with `check50`
+
+You can check that your work is correct and meets the specifications of the lab by executing the following at the `$` prompt:
+
+```
+check50 canisiushs/problems/2020/1_7_booleans
+```
+
+If your code passed all of the tests you will see check50 outputs:
+
+<div id="green">
+    <pre><code>:) booleans.c exists
+:) booleans.c compiles
+:) responds to 95
+:) responds to 85
+:) responds to 75
+:) responds to 15
+:) responds to 150
+:) rejects a non-numeric input of "foo"
+:) rejects a floating-point number 55.5 </code></pre>
+</div>
+
+you are ready to submit!
+
+### Submitting with `submit50`
+
+Assuming you passed all of the checks and your style is good you can now submit the lab by executing the following at the `$` prompt:
+
+```
+submit50 canisiushs/problems/2020/1_7_booleans
+```
+
+Congratulations, you've completed the Booleans Lab!
+
 [For more info, download the CS50 Boolean Expressions Reference Sheet](https://ap.cs50.school/assets/pdfs/unit1/boolean_expressions.pdf)

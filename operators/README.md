@@ -165,7 +165,7 @@ you are now ready to check your code!
 You can check that your work is correct and meets the specifications of the lab by executing the following at the `$` prompt:
 
 ```
-check50 canisiushs/problems/2020/1_5_operators
+check50 canisiushs/problems/2020/1_6_operators
 ```
 
 If your code passed all of the tests you will see check50 outputs:
@@ -185,7 +185,7 @@ you are ready to submit!
 Assuming you passed all of the checks and your style is good you can now submit the lab by executing the following at the `$` prompt:
 
 ```
-submit50 canisiushs/problems/2020/1_5_operators
+submit50 canisiushs/problems/2020/1_6_operators
 ```
 
 Congratulations, you've completed the Operators Lab!
