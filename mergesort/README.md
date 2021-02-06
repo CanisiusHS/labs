@@ -56,4 +56,16 @@ Finally, call the `merge()` function, passing it the name of the array, the left
 
 {% endspoiler %}
 
+{% next %}
+
+### Style, Check, & Submit 
+
+Make sure to check your style!  Here are the slugs you will need for both `check50` and `submit50`:
+
+```
+canisiushs/problems/2020/3_6_merge
+```
+
+Congratulations, you've completed the Merge Sort Lab!
+
 [Download our CS50 Reference sheet on Merge Sort](https://ap.cs50.school/assets/pdfs/unit4/merge_sort.pdf)
