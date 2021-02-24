@@ -56,4 +56,14 @@ Your job is to:
 
 Once you've completed this, the program will print the number of wins you would have, out of 3 million games, if you always make the the switch!
 
+### Style, Check, & Submit
+
+Make sure to check your style!  Here are the slugs you will need for both `check50` and `submit50`:
+
+```
+canisiushs/problems/2020/3_8_models
+```
+
+Congratulations, you've completed the Linear Search Lab!
+
 [Download our CS50 Reference sheet on Models and Simulations](https://ap.cs50.school/assets/pdfs/unit3/models_and_simulations.pdf)
