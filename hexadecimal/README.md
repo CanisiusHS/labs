@@ -35,4 +35,16 @@ After prompting the user for a hexadecimal number, the program iterates through 
 
 {% endspoiler %}
 
+{% next %}
+
+### Style, Check, & Submit 
+
+Make sure to check your style!  Here are the slugs you will need for both `check50` and `submit50`:
+
+```
+canisiushs/problems/2020/4_1_hexadecimal
+```
+
+Congratulations, you've completed the Hexadecimal Lab!
+
 [Download our CS50 Reference sheet on Hexadecimal](https://ap.cs50.school/assets/pdfs/unit4/hexadecimal.pdf)
