@@ -71,4 +71,17 @@ You may declare either a single variable or an array using your new data type. I
 
 Be sure to test your code with valid data, invalid data, and corner cases!
 
+{% next %}
+
+### Style, Check, & Submit 
+
+Make sure to check your style!  Here are the slugs you will need for both `check50` and `submit50`:
+
+```
+canisiushs/problems/2020/4_0_struct
+```
+
+Congratulations, you've completed the Structs Lab!
+
+
 [Download our CS50 Reference sheet on Structures and Encapsulation](https://ap.cs50.school/assets/pdfs/unit4/structures_and_encapsulation.pdf)
