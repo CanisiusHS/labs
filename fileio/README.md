@@ -105,4 +105,17 @@ Complete the program on the right that takes two command line arguments — 
 
 {% endspoiler %}
 
+{% next %}
+
+### Style, Check, & Submit 
+
+Make sure to check your style!  Here are the slugs you will need for both `check50` and `submit50`:
+
+```
+canisiushs/problems/2020/4_2_fileio
+```
+
+Congratulations, you've completed the File IO Lab!
+
+
 [Download our CS50 Reference sheet on File I/O](https://ap.cs50.school/assets/pdfs/unit4/file_io.pdf)
