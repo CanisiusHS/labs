@@ -14,7 +14,6 @@ An **array** is a type of data structure in C that can hold multiple values, of 
 float student1 = get_float("Enter a grade for student1: ");
 float student2 = get_float("Enter a grade for student2: ");
 float student3 = get_float("Enter a grade for student3: ");
-...
 ```
 
 We can see pretty quickly that it's going to get pretty boring typing in so much repetitive code!
@@ -25,8 +24,6 @@ Instead, we can use an array, named `student` that can store 30 floating point v
 float student[30];
 ```
 
-{% next %}
-
 We access individual values in `student` by using square bracket notation with an index that ranges from 0 up to, but not including 30. Arrays in C are **zero-indexed**, meaning the first item in the array always has an index of zero.
 
 Once our array is declared, we can prompt for grades like this:
@@ -35,7 +32,6 @@ Once our array is declared, we can prompt for grades like this:
 student[0] = get_float("Enter a grade for student0: ");
 student[1] = get_float("Enter a grade for student1: ");
 student[2] = get_float("Enter a grade for student2: ");
-...
 ```
 
 or even better, we can prompt 30 times for input using a loop:
@@ -48,8 +44,6 @@ for (int i = 0; i < 30; i++)
 ```
 
 Note that we use the variable `i` both to control the `for`  loop, as well as to the index into our array. Since `i` starts at 0 and increases by one until it gets to 29, it corresponds to each index in our array. This is called iterating through an array.
-
-{% next %}
 
 ## Strings
 
@@ -77,8 +71,6 @@ for (int i = 0; i < strlen(course); i++)
 ```
 
 Here we print out each letter stored in the string variable `course` on its own line.
-
-{% next %}
 
 ## Your Turn!
 
