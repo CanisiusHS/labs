@@ -95,6 +95,7 @@ for (int i = 0; i < NUM_DAYS; i++)
 }
 ```
 
+### Spoiler
 Then use the same for loop a second time to iterate through these values and print them. Inside this second loop you will have something like:
 
 ```c
@@ -103,22 +104,18 @@ printf("Day %i: %i", i + 1, hours[i]);
 
 Why do you think we're printing the value `i + 1` for the day?
 
-{% endspoiler %}
-
 Make sure to compile and test both programs!
-
-{% next %}
 
 ### Style, Check, & Submit
 
 At this point you should no longer need me to point out how these tools work.  Make sure to check your style!  Here are the slugs you will need for both `check50` and `submit50`:
 
 ```
-canisiushs/problems/2020/2_2_1_strings
+canisiushs/problems/2022/2_2_1_strings
 ```
 
 ```
-canisiushs/problems/2020/2_2_2_arrays
+canisiushs/problems/2022/2_2_2_arrays
 ```
 
 Congratulations, you've completed the String and Arrays Lab!
